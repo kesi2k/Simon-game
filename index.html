@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta charset='UTF-8'>
+    <!-- Viewport meta tag, to ensure proper rendering and touch zooming -->
+    <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no'>
+    <!--  Bootstrap 3.3.5 -->
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+   
+    <link rel="stylesheet" type="text/css" href="styling.css">
+</head>
+
+<body>
+  <div id="big_wrapper">
+    <h1 style="color:gray">Simon Game</h1>
+    <div id = "game_grid">
+    <div id = "green" class="color green"></div>
+    <div id = "red" class="color red"></div>
+      <div id = "functions">
+        <button id = "start" class="btn btn-default">Start</button>
+        <button id = "reset" class="btn btn-warning">Reset</button>
+        <div id= "display" class = "display_col">-</div>
+        <button id = "strict" class="btn btn-danger">Strict</button>
+        <div id = "strict_light"class = "strict_toggle"></div>
+      </div>
+    <div id = "yellow" class="color yellow"></div>
+    <div id = "blue" class="color blue"></div>  
+    </div>
+    <p id = "footer" style = "color:gray">Footer</p>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="http://code.jquery.com/ui/2.1.3/jquery-ui.js"></script>
+  <script type="text/javascript" src='index.js'></script>
+</body>
+</html>
