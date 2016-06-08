@@ -1,14 +1,20 @@
 
 body{
-  background:black;  
+  background:#2B2B2B;  
 }
 #big_wrapper{
      text-align:center;
 }
 
+#instructions{
+     padding-left:15px;
+     text-align:left;
+}
+
 h1{
 margin-bottom: 100px;
 }
+
 #game_grid{
  position: relative;
   text-align: center;
