@@ -12,6 +12,20 @@ body{
      color:#74AFAD;
 }
 
+#menu_header li{float:right;
+       padding: 15px;
+       list-style:none; 
+}
+#Main{ 
+       color:black;
+       padding-top:250px;
+}
+.blue-text{font-family: times;
+           color:#74AFAD;
+           font-size: 25px;
+           text-align: left
+}
+
 h1{
 margin-bottom: 100px;
 }
